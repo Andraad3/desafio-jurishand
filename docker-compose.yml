@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: jurishand123
+      MYSQL_DATABASE: jurishand
+      MYSQL_USER: joao
+      MYSQL_PASSWORD: jurishand123
+      MYSQL_OPTS: "--allow-key-public-retrieval=true"
+    ports:
+      - "3306:3306"
