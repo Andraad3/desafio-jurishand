@@ -8,3 +8,5 @@ Rodar um yarn start ou npm start
 Para os testes, rodar um yarn/npm test
 
 Para acessar a documentação acessar na rota /docs
+
+Para rodar o script em python - python3 jurishand.py
